@@ -1,0 +1,16 @@
+{
+  "name": "litecoin-p2sh-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Natnael Abrham",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "node-telegram-bot-api": "^0.30.0"
+  }
+}
