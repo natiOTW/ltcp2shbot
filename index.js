@@ -49,8 +49,8 @@ bot.on("message", msg => {
       message = "Please enter a valid address.";
       address = "";
     }
-    bot.sendMessage(chatid, message + `${address}`, {
-      parse_mode: "Markdown"
+    bot.sendMessage(chatid, message + <code>${address}</code>, {
+      parse_mode: "HTML"
     });
   } else {
     bot.sendMessage(
